@@ -1,0 +1,29 @@
+p {
+	font-family: georgia;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: green;
+}
+
+a:active {
+	text-decoration: underline;
+	color: blue;
+} 
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#copyright {
+	padding-top: 0px;
+	padding-bottom: 20px;
+	font-family: georgia;
+}

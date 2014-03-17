@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Data Keuangan</title>
+	<link rel="stylesheet" type="text/css" href="CSS/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/font.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/element.css"/>
+</head>
+<body>
+	<div id="container">
+	<div id="header">
+		<table border="0" cellspacing="10">
+			<tr>
+				<td><img src="Images/biku.png" width="150" height="150" /></td>
+				<td><h1>BIKU Page</h1></td>
+			</tr>
+		</table>
+	</div>
+	<div id="cpanel">
+		<form action="tambahkeuangan.php" method="POST">
+		<table border="0" cellspacing="40">
+			<tr>
+				<td colspan="3"><h1>Data Keuangan</h1></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="tampilkeuangan.php" title="Update Data Keuangan"><img src="Images/open.png" /></a>
+				</td>
+				<td>
+					<a href="panelbiku.php" title="Kembali"><img src="Images/back.png" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td>NIM</td>
+				<td>:</td>
+				<td><input type="text" name="nim" /></td>
+			</tr>
+			<tr>
+				<td>Kewajiban</td>
+				<td>:</td>
+				<td><input type="text" name="kewajiban" size="35" /></td>
+			</tr>
+			<tr>
+				<td>Status Pembayaran</td>
+				<td>:</td>
+				<td>
+					<select name="status">
+						<option value="Terbayar">Terbayar</option>
+						<option value="Belum Terbayar">Belum Terbayar</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="submit" name="submit" value="Submit" />
+					<input type="reset" name="reset" value="Reset" />
+				</td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	</div>
+	<div id="footer">Copyright &copy; 2013 ERA</div>
+</body>
+</html>

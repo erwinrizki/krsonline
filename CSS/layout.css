@@ -1,0 +1,161 @@
+#container {
+	margin: auto;
+	width: 1200px;
+}
+
+#header {
+
+}
+
+#content {
+
+}
+
+#footer {
+    background-color: #383838;
+    border-top: 1px solid #ccc;
+    bottom: 0;
+    color: #ffffff;
+    height: 20px;
+    padding: 10px;
+    position: fixed;
+    top: auto;
+	left: 0;
+	right: 0;
+    z-index: 101;
+    text-align:center;
+}
+
+#kuota {
+	background-color: pink;
+	bottom: 45px;
+	height: 100px;
+	width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	position: fixed;
+	left: 0;
+	z-index: 101;
+	text-align: center;
+}
+
+body {
+	background-color: #00BFFF;
+}
+
+#login {
+	background: #FFFF00;
+	margin-top: 250px;
+	margin-bottom: 250px;
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+#cpanel {
+	background: white;
+	margin-top: 0px;
+	width: 900px;
+}
+
+#cpanelkrs {
+	background: white;
+	margin-top: 0px;
+	width: 1200px;
+}
+
+#cpanel1 {
+	background: white;
+	margin-top: 0px;
+	width: 600px;
+}
+
+#cpanel2 {
+	background: white;
+	margin-top: 50px;
+	width: 200px;
+}
+
+#menumsg {
+	padding-top: 40px;
+	margin-bottom: 30px; 
+	padding-left: 40px;
+	margin-left: 60px;
+	background: #101010 ;
+	width: 250px;
+	height: 300px;
+}
+
+#isimsg {
+	padding-top: 40px;
+	background: #101010;
+	width: 500px;
+	float: right;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	height: 300px;
+	overflow-y: scroll;
+}
+
+#inmsg {
+	padding-top: 40px;
+	background: #101010;
+	width: 500px;
+	float: right;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	height: 300px;
+}
+
+#outmsg {
+	padding-top: 40px;
+	background: #101010;
+	width: 500px;
+	float: right;
+	margin-right: 60px;
+	margin-bottom: 30px;
+	height: 300px;
+}
+
+.slide {
+	margin-top: 40px;
+	width: 900px;
+	padding: 0;
+	/*border-top: solid 4px #422410;*/
+	/*background: url("Images/open.png") no-repeat center top;*/
+}
+
+.slide1 {
+	margin-top: 40px;
+	width: 600px;
+	padding: 0;
+	/*border-top: solid 4px #422410;*/
+	/*background: url("Images/open.png") no-repeat center top;*/
+}
+
+.btn-slide {
+	background: url("Images/open.png") no-repeat right -50px;
+	text-align: center;
+	width: 600px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-slide1 {
+	background: url("Images/open.png") no-repeat right -50px;
+	text-align: center;
+	width: 600px;
+	height: 31px;
+	padding: 10px 10px 0 0;
+	margin: 0 auto;
+	display: block;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+}
