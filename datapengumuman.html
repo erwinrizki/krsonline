@@ -1,0 +1,61 @@
+<html>
+<head>
+	<title>Data Pengumuman</title>
+	<link rel="stylesheet" type="text/css" href="CSS/layout.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/font.css"/>
+	<link rel="stylesheet" type="text/css" href="CSS/element.css"/>
+</head>
+<body>
+	<div id="container">
+	<div id="header">
+		<table border="0" cellspacing="10">
+			<tr>
+				<td><img src="Images/admin.png" width="150" height="150" /></td>
+				<td><h1>Admin Page</h1></td>
+			</tr>
+		</table>
+	</div>
+	<div id="cpanel">
+		<form action="tambahpengumuman.php" method="POST" >
+		<table border="0" cellspacing="40">
+			<tr>
+				<td colspan="3"><h1>Data Pengumuman</h1></td>
+			</tr>
+			<tr>
+				<td>
+					<a href="tampilpengumuman.php" title="Tampilkan Data Pengumuman"><img src="Images/open.png" /></a>
+				</td>
+				<td>
+					<a href="paneladmin.php" title="Kembali"><img src="Images/back.png" /></a>
+				</td>
+			</tr>
+			<tr>
+				<td>Judul</td>
+				<td>:</td>
+				<td><input type="text" name="judul" size="55" /></td>
+			</tr>
+			<tr>
+				<td>Author</td>
+				<td>:</td>
+				<td><input type="text" name="author" size="25" /></td>
+			</tr>
+			<tr>
+				<td>Isi Pengumuman</td>
+				<td>:</td>
+				<td>
+					<textarea cols="45" rows="8" name="isi"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3">
+					<input type="submit" name="submit" value="Submit" />
+					<input type="reset" name="reset" value="Reset" />
+				</td>
+			</tr>
+		</table>
+		</form>
+	</div>
+	<div id="footer">Copyright &copy; 2013 ERA</div>
+	</div>
+</body>
+</html>
